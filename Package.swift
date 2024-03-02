@@ -36,7 +36,7 @@ let package = Package(
         .target(
             name: "Alamofire",
             path: "Source",
-            resources: [.copy("PrivacyInfo.xcprivacy")])
+            resources: [.process("PrivacyInfo.xcprivacy")])
     ],
     swiftLanguageVersions: [.v4, .v5]
 )
