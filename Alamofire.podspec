@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name = 'Alamofire'
-  s.version = '4.9.1'
+  s.version = '4.9.2'
   s.license = 'MIT'
   s.summary = 'Elegant HTTP Networking in Swift'
-  s.homepage = 'https://github.com/Alamofire/Alamofire'
+  s.homepage = 'https://github.com/Xempire/Alamofire'
   s.social_media_url = 'http://twitter.com/AlamofireSF'
   s.authors = { 'Alamofire Software Foundation' => 'info@alamofire.org' }
-  s.source = { :git => 'https://github.com/Alamofire/Alamofire.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/Xempire/Alamofire.git', :tag => s.version }
   s.documentation_url = 'https://alamofire.github.io/Alamofire/'
 
   # Ensure developers won't hit CocoaPods/CocoaPods#11402 with the resource
